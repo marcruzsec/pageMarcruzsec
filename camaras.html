@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>UpConstruction Bootstrap Template - Service Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: UpConstruction
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>MC Security<span>.</span></h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="projects.html">Proyectos</a></li>
+          <!--li><a href="blog.html">Blog</a></li-->
+          <li class="dropdown"><a href="#"><span>Productos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="alarmas.html">Sistemas de Alarma</a></li>
+              <li class="dropdown"><a href="camaras.html"><span>Camaras de Seguridad</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="camaras.html">Camaras de 2 megapixeles</a></li>
+                  <li><a href="camaras.html">Camaras de 5 megapixeles</a></li>
+                  <li><a href="camaras.html">Camaras de 8 megapixeles</a></li>
+                </ul>
+              </li>
+              <li><a href="incendios.html">Sistemas contra Incendios</a></li>
+              <li><a href="accesos.html">Control de Accesos</a></li>
+              <li><a href="bancaria.html">Seguridad Bancaria</a></li>
+              <li><a href="#">Domotica</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+        <h2>Detalle de Servicios</h2>
+        <ol>
+          <li><a href="index.html">Inicio</a></li>
+          <li>Detalle de Servicios</li>
+        </ol>
+
+      </div>
+    </div><!-- End Breadcrumbs -->
+    
+    <table class="listaAccesos">
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Imagen</th>
+          <th>Características</th>
+          <th>Accion</th>
+        </tr>
+        <tr>
+          <td>KIT 4 CAMARAS 2 MPX</td>
+          <td>$155,00</td>
+          <td>
+            <img
+              src="assets/img/camaras/kit4camaras.png"
+              alt="Producto 1"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                ¡Protege tu hogar o negocio con nuestro Kit de 4 Cámaras de
+                Seguridad de 2 Megapíxeles! Este conjunto de cámaras de alta
+                resolución ofrece una solución completa y confiable para la
+                vigilancia de tu propiedad. Con características avanzadas y una
+                instalación sencilla, tendrás tranquilidad las 24 horas del día,
+                los 7 días de la semana.
+              </li>
+            </ul>
+          </td>
+          <td>
+            <div>
+              <button id="PRT-CTRL-DIN" onclick="agregarProductos('PRT-CTRL-DIN', 1200.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
+        </tr>
+        <tr>
+          <td>XVR5104HS-X1</td>
+          <td>$55,75</td>
+          <td>
+            <img
+              src="assets/img/camaras/XVR5104HS-X1.png"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                Tipo: XVR Hibrido (5 tecnologías). Serie: Lite, Tecnología: 4 en
+                1. Entrada Analógica: 4CH Entrada IP: Más 2CH IP. Resolución
+                máxima IP: MAX IP 6MP. Compresión: H.265+, H.265, H.264+, H.264,
+                Resolución Grabación Máxima: Grabación hasta 720P@30FPS,
+                Grabación hasta 5M-N@10FPS, 1er canal a: CH1 4M-N@15FPS,
+                Interfaz de red: RJ45 10/100 Mbps SATA: 1 SATA. Cp. HDD: HASTA
+                6TB. Salidas HDMI y VGA: 1P HDM1, 1P VGA, Resolución máxima
+                salida HDMI 1: HDMI1 1920 × 1080/60Hz. Reproducción simultánea:
+                Reproducción simultánea 4-ch. Interfaz RS485: RS485. Analíticas:
+                5 analíticas, Detección facial
+              </li>
+            </ul>
+          </td>
+          <td>
+            <div>
+              <button id="PRT-CTRL-DIN" onclick="agregarProductos('PRT-CTRL-DIN', 1200.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
+        </tr>
+        <tr>
+          <td>DH-XVR1A08</td>
+          <td>$49,00</td>
+          <td>
+            <img
+              src="assets/img/camaras/DH-XVR1A08.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                Soporta HDCVI/ AHD/ TVI/ CVBS/ IP. Compresión de video H.264. 8
+                canales HDCVI 720P / 1080N. 2 Canales IP Adicionales hasta 2MP.
+                Audio a través de cable coaxial. 1 salida HDMI y 1 Salida VGA. 1
+                puerto SATA (hasta 6TB). 2 puertos USB 2.0. 1 puerto RJ-45
+                (100M). Conexión P2P. ONVIF 2.42, CGI Conformant. Máx. Acceso de
+                Usuarios: 128. Fuente de Alimentación DC12V/ 1.5A.
+              </li>
+            </ul>
+          </td>
+          <td>
+            <div>
+              <button id="PRT-CTRL-DIN" onclick="agregarProductos('PRT-CTRL-DIN', 1200.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
+        </tr>
+        <tr>
+          <td>DH-XVR1B16</td>
+          <td>$88.99</td>
+          <td>
+            <img
+              src="assets/img/camaras/DH-XVR1B16.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                Tipo: XVR Hibrido (5 tecnologías). Serie: Cooper, Tecnología: 4
+                en 1. Entrada Analógica: 16CH Entrada IP: Más 2CH IP. Resolución
+                máxima IP: MAX IP 6MP. Compresión: H.265+, H.265, H.264+, H.264,
+                Resolución Grabación Máxima: Grabación hasta 1080N@30FPS, 1er
+                canal a: CH1 1080N@30FPS, Canales restantes a: OTROS CH
+                1080N@15FPS, Interfaz de red: RJ45 10/100 Mbps SATA: 1 SATA. Cp.
+                HDD: HASTA 6TB. Salidas HDMI y VGA: 1P HDM1, 1P VGA, Resolución
+                máxima salida HDMI 1: HDMI1 1920 × 1080/60Hz. Reproducción
+                simultánea: Reproducción simultánea 16-ch Analíticas: Detección
+                de movimiento, Audio bidireccional: RCA Audio Bidireccional
+              </li>
+            </ul>
+          </td>
+          <td>
+            <div>
+              <button id="PRT-CTRL-DIN" onclick="agregarProductos('PRT-CTRL-DIN', 1200.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
+        </tr>
+        <tr>
+          <td>HAC-HDBW1200RN-VF</td>
+          <td>$42.99</td>
+          <td>
+            <img
+              src="assets/img/camaras/HAC-HDBW1200RN-VF.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                DAHUA HDABW1200RNVFS3- Cámara Domo Antivandálica/
+                1080P/ HDCVI/ TVI/ AHD/ CVBS/ Lente de 2.7 a 12mm/ Luz IR
+                30 Mts/ IP67/ IK10
+              </li>
+            </ul>
+          </td>
+          <td>
+            <div>
+              <button id="PRT-CTRL-DIN" onclick="agregarProductos('PRT-CTRL-DIN', 1200.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
+        </tr>
+        <tr>
+          <td>HAC-HDW2401EMN</td>
+          <td>$59.99</td>
+          <td>
+            <img
+              src="assets/img/camaras/HAC-HDW2401EMN.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                Domo Antivandálico HDCVI, 4 MP (1680p), Dia/Noche Real, IR
+                Smart Led 50m, chip CMOS 1/3', lente fijo 3.6mm, menú OSD
+                sobre coaxial, WDR (120dB), salida dual HD y SD, AGC, BLC,
+                HLC, IP67, IK10, 3DNR, 12VDC. Metálica
+              </li>
+            </ul>
+          </td>
+          <td>
+            <div>
+              <button id="PRT-CTRL-DIN" onclick="agregarProductos('PRT-CTRL-DIN', 1200.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
+        </tr>
+        <tr>
+          <td>PFM - 322</td>
+          <td>$10.99</td>
+          <td>
+            <img
+              src="assets/img/camaras/PFM - 322.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                Fácil instalación.
+                Entrada AC100~240V,50/60Hz，0.6A Max
+                DC12V(﹢7%,-3%)_0.7A(±3%)(cada grupo)
+                Cuatro puertos de alimentación independientes salida 0.7A
+                Material PC
+                Dimensión: 148*70*31mm
+                Peso: 0.21kg
+                Color Negro
+              </li>
+            </ul>
+          </td>
+          <td>
+            <div>
+              <button id="PRT-CTRL-DIN" onclick="agregarProductos('PRT-CTRL-DIN', 1200.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
+        </tr>
+        <tr>
+          <td>PFM - 801</td>
+          <td>$9.00</td>
+          <td>
+            <img
+              src="assets/img/camaras/PFM - 801.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                El PFM801 está diseñado para la transmisión de señales de
+                video y suministro de energía a través de cable de par
+                trenzado (UTP, FTP). El dispositivo adapta la impedancia del
+                cable coaxial 75Ω a la impedancia de la línea simétrica,
+                asegurando la transmisión de la señal de video hasta 400m
+                (cable par trenzado categoría 5) y elimina las interferencias
+                asimétricas.
+                El dispositivo requiere una tensión de alimentación de 24 V ...
+                36 V CC, que se estabiliza a 12 V CC.
+              </li>
+            </ul>
+          </td>
+          <td>
+            <div>
+              <button id="PRT-CTRL-DIN" onclick="agregarProductos('PRT-CTRL-DIN', 1200.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
+        </tr>
+      </table>
+    </main>
+
+   <!-- ======= Footer ======= -->
+   <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>MC Security</h3>
+              <p>
+                Pichincha y <br>
+                Rafael Arellano, Tulcán <br><br>
+                <strong>Telefono:</strong> 0967442355<br>
+                <strong>Email:</strong> marcruzsecsecurity.com<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Enlaces útiles</h4>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="about.html">Nosotros</a></li>
+              <li><a href="services.html">Servicios</a></li>
+              <li><a href="projects.html">Proyectos</a></li>
+             
+            </ul>
+          </div><!-- End footer links column-->
+
+          <!--div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <!--div class="col-lg-2 col-md-3 footer-links">
+            <h4>Hic solutasetp</h4>
+            <ul>
+              <li><a href="#">Molestiae accusamus iure</a></li>
+              <li><a href="#">Excepturi dignissimos</a></li>
+              <li><a href="#">Suscipit distinctio</a></li>
+              <li><a href="#">Dilecta</a></li>
+              <li><a href="#">Sit quas consectetur</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <!--div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nobis illum</h4>
+            <ul>
+              <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>MC Security</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
